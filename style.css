@@ -167,7 +167,6 @@ nav ul li a {
 .hexagonHive {
   position: relative;
   right: 10%;
-  bottom: -5%;
   width: 30%;
   animation: upDown 1s infinite alternate ease-in;
   z-index: 1;
@@ -176,7 +175,7 @@ nav ul li a {
 .hexagonSwc {
   position: absolute;
   left: 35%;
-  top: 70%;
+  top: 80%;
   width: 30%;
   animation: upDown 1.5s infinite alternate ease-in 1s;
 }
@@ -383,12 +382,12 @@ nav ul li a {
     display: flex;
   }
 
-  .hexagonContainer {
-    display: none;
-  }
   .principal {
     display: flex;
+    flex-wrap:wrap-reverse;
+
   }
+
   .principal h1 {
     line-height: 10vw;
     color: white;
